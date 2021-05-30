@@ -1,0 +1,30 @@
+filebeat.config:
+  modules:
+    path: ${path.config}/modules.d/*.yml
+    reload.enabled: false
+
+#filebeat.autodiscover:
+#  providers:
+#    - type: docker
+#      hints.enabled: true
+
+output.elasticsearch:
+  hosts: 'elasticsearch:9200'
+  username: 'elastic'
+  password: 'changeme'
+  index: "filebeat-suricata-%{[agent.version]}-%{+yyyy.MM.dd}"
+
+setup.kibana:
+  host: "kibana:5601"
+
+# setup.dashboards.index: "filebeat-suricata-*"
+setup.template:
+  enabled: true
+  overwrite: true
+  name: 'suricata'
+  pattern: 'filebeat-suricata-*'
+
+processors:
+- add_cloud_metadata: ~
+
+setup.ilm.enabled: false

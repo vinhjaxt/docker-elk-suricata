@@ -1,0 +1,83 @@
+30/5/2021 -- 18:42:39 - <Notice> - This is Suricata version 6.0.2 RELEASE running in SYSTEM mode
+30/5/2021 -- 18:42:39 - <Info> - CPUs/cores online: 4
+30/5/2021 -- 18:42:40 - <Info> - Found an MTU of 1500 for 'wlan0'
+30/5/2021 -- 18:42:40 - <Info> - Found an MTU of 1500 for 'wlan0'
+30/5/2021 -- 18:42:40 - <Info> - eve-log output device (regular) initialized: eve.json
+30/5/2021 -- 18:42:40 - <Info> - Going to log the md5 sum of email body
+30/5/2021 -- 18:42:40 - <Info> - Going to log the md5 sum of email subject
+30/5/2021 -- 18:42:40 - <Info> - DNP3 log sub-module initialized.
+30/5/2021 -- 18:42:40 - <Info> - DNP3 log sub-module initialized.
+30/5/2021 -- 18:42:44 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+30/5/2021 -- 18:42:56 - <Info> - 1 rule files processed. 30049 rules successfully loaded, 0 rules failed
+30/5/2021 -- 18:42:56 - <Info> - Threshold config parsed: 0 rule(s) found
+30/5/2021 -- 18:42:57 - <Info> - 30064 signatures processed. 1267 are IP-only rules, 7322 are inspecting packet payload, 21062 inspect application layer, 110 are decoder event only
+30/5/2021 -- 18:42:57 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+30/5/2021 -- 18:42:57 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+30/5/2021 -- 18:42:57 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+30/5/2021 -- 18:42:57 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+30/5/2021 -- 18:43:40 - <Info> - Going to use 4 thread(s)
+30/5/2021 -- 18:43:40 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+30/5/2021 -- 18:43:40 - <Notice> - all 4 packet processing threads, 2 management threads initialized, engine started.
+30/5/2021 -- 18:43:40 - <Info> - Using BPF 'not (host sicherheitstacho.eu or community.sicherheitstacho.eu or listbot.sicherheitstacho.eu) and not (host rules.emergingthreats.net or rules.emergingthreatspro.com) and not (host deb.debian.org) and not (host ghcr.io) and not (host index.docker.io or docker.io)' on iface 'wlan0'
+30/5/2021 -- 18:43:43 - <Info> - Using BPF 'not (host sicherheitstacho.eu or community.sicherheitstacho.eu or listbot.sicherheitstacho.eu) and not (host rules.emergingthreats.net or rules.emergingthreatspro.com) and not (host deb.debian.org) and not (host ghcr.io) and not (host index.docker.io or docker.io)' on iface 'wlan0'
+30/5/2021 -- 18:43:43 - <Info> - Using BPF 'not (host sicherheitstacho.eu or community.sicherheitstacho.eu or listbot.sicherheitstacho.eu) and not (host rules.emergingthreats.net or rules.emergingthreatspro.com) and not (host deb.debian.org) and not (host ghcr.io) and not (host index.docker.io or docker.io)' on iface 'wlan0'
+30/5/2021 -- 18:43:43 - <Info> - Using BPF 'not (host sicherheitstacho.eu or community.sicherheitstacho.eu or listbot.sicherheitstacho.eu) and not (host rules.emergingthreats.net or rules.emergingthreatspro.com) and not (host deb.debian.org) and not (host ghcr.io) and not (host index.docker.io or docker.io)' on iface 'wlan0'
+30/5/2021 -- 18:43:43 - <Info> - All AFP capture threads are running.
+30/5/2021 -- 18:47:40 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+30/5/2021 -- 18:47:40 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+30/5/2021 -- 18:47:40 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+30/5/2021 -- 18:47:40 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+30/5/2021 -- 18:48:26 - <Notice> - rule reload starting
+30/5/2021 -- 18:48:31 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+30/5/2021 -- 18:48:46 - <Info> - 1 rule files processed. 30049 rules successfully loaded, 0 rules failed
+30/5/2021 -- 18:48:46 - <Info> - Threshold config parsed: 0 rule(s) found
+30/5/2021 -- 18:48:46 - <Info> - 30064 signatures processed. 1267 are IP-only rules, 7322 are inspecting packet payload, 21062 inspect application layer, 110 are decoder event only
+30/5/2021 -- 18:48:46 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+30/5/2021 -- 18:48:46 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+30/5/2021 -- 18:48:46 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+30/5/2021 -- 18:48:46 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+30/5/2021 -- 18:49:11 - <Info> - cleaning up signature grouping structure... complete
+30/5/2021 -- 18:49:11 - <Notice> - rule reload complete
+30/5/2021 -- 18:49:11 - <Info> - Unix socket: lost connection with client
+30/5/2021 -- 19:01:53 - <Notice> - rule reload starting
+30/5/2021 -- 19:01:58 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+30/5/2021 -- 19:02:17 - <Info> - 1 rule files processed. 30049 rules successfully loaded, 0 rules failed
+30/5/2021 -- 19:02:18 - <Info> - Threshold config parsed: 0 rule(s) found
+30/5/2021 -- 19:02:18 - <Info> - 30064 signatures processed. 1267 are IP-only rules, 7322 are inspecting packet payload, 21062 inspect application layer, 110 are decoder event only
+30/5/2021 -- 19:02:18 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+30/5/2021 -- 19:02:18 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+30/5/2021 -- 19:02:18 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+30/5/2021 -- 19:02:18 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+30/5/2021 -- 19:02:53 - <Info> - cleaning up signature grouping structure... complete
+30/5/2021 -- 19:02:53 - <Notice> - rule reload complete
+30/5/2021 -- 19:02:53 - <Info> - Unix socket: lost connection with client
+30/5/2021 -- 20:44:01 - <Notice> - Signal Received.  Stopping engine.
+30/5/2021 -- 20:44:01 - <Info> - time elapsed 7221.264s
+30/5/2021 -- 20:44:02 - <Info> - Alerts: 0
+30/5/2021 -- 20:44:02 - <Info> - cleaning up signature grouping structure... complete
+30/5/2021 -- 20:44:02 - <Notice> - Stats for 'wlan0':  pkts: 461306, drop: 21609 (4.68%), invalid chksum: 0
+30/5/2021 -- 20:44:18 - <Notice> - This is Suricata version 6.0.2 RELEASE running in SYSTEM mode
+30/5/2021 -- 20:44:18 - <Info> - CPUs/cores online: 4
+30/5/2021 -- 20:44:18 - <Info> - Found an MTU of 1500 for 'wlan0'
+30/5/2021 -- 20:44:18 - <Info> - Found an MTU of 1500 for 'wlan0'
+30/5/2021 -- 20:44:18 - <Info> - eve-log output device (regular) initialized: eve.json
+30/5/2021 -- 20:44:18 - <Info> - Going to log the md5 sum of email body
+30/5/2021 -- 20:44:18 - <Info> - Going to log the md5 sum of email subject
+30/5/2021 -- 20:44:18 - <Info> - DNP3 log sub-module initialized.
+30/5/2021 -- 20:44:18 - <Info> - DNP3 log sub-module initialized.
+30/5/2021 -- 20:44:23 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+30/5/2021 -- 20:44:40 - <Info> - 1 rule files processed. 30049 rules successfully loaded, 0 rules failed
+30/5/2021 -- 20:44:40 - <Info> - Threshold config parsed: 0 rule(s) found
+30/5/2021 -- 20:44:41 - <Info> - 30064 signatures processed. 1267 are IP-only rules, 7322 are inspecting packet payload, 21062 inspect application layer, 110 are decoder event only
+30/5/2021 -- 20:44:41 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+30/5/2021 -- 20:44:41 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+30/5/2021 -- 20:44:41 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+30/5/2021 -- 20:44:41 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+30/5/2021 -- 20:45:45 - <Info> - Going to use 4 thread(s)
+30/5/2021 -- 20:45:45 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+30/5/2021 -- 20:45:45 - <Notice> - all 4 packet processing threads, 2 management threads initialized, engine started.
+30/5/2021 -- 20:45:45 - <Info> - Using BPF 'not (host sicherheitstacho.eu or community.sicherheitstacho.eu or listbot.sicherheitstacho.eu) and not (host rules.emergingthreats.net or rules.emergingthreatspro.com) and not (host deb.debian.org) and not (host ghcr.io) and not (host index.docker.io or docker.io)' on iface 'wlan0'
+30/5/2021 -- 20:45:47 - <Info> - Using BPF 'not (host sicherheitstacho.eu or community.sicherheitstacho.eu or listbot.sicherheitstacho.eu) and not (host rules.emergingthreats.net or rules.emergingthreatspro.com) and not (host deb.debian.org) and not (host ghcr.io) and not (host index.docker.io or docker.io)' on iface 'wlan0'
+30/5/2021 -- 20:45:47 - <Info> - Using BPF 'not (host sicherheitstacho.eu or community.sicherheitstacho.eu or listbot.sicherheitstacho.eu) and not (host rules.emergingthreats.net or rules.emergingthreatspro.com) and not (host deb.debian.org) and not (host ghcr.io) and not (host index.docker.io or docker.io)' on iface 'wlan0'
+30/5/2021 -- 20:45:47 - <Info> - Using BPF 'not (host sicherheitstacho.eu or community.sicherheitstacho.eu or listbot.sicherheitstacho.eu) and not (host rules.emergingthreats.net or rules.emergingthreatspro.com) and not (host deb.debian.org) and not (host ghcr.io) and not (host index.docker.io or docker.io)' on iface 'wlan0'
+30/5/2021 -- 20:45:47 - <Info> - All AFP capture threads are running.
