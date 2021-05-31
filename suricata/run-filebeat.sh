@@ -30,7 +30,7 @@ docker run --rm --network=docker-elk_elk \
   setup
 
 # Create Index: http://127.0.0.1:5601/app/management/kibana/indexPatterns
-# docker run --rm --network=docker-elk_elk alpine:latest sh -c 'apk add --no-cache curl && curl -X POST "http://kibana:5601/api/index_patterns/index_pattern" -H "kbn-xsrf: true" -H "Content-Type: application/json" -d'\''{"index_pattern": {"title": "filebeat-suricata-*","timeFieldName":"@timestamp"}}'\'
+# docker run --rm --network=docker-elk_elk alpine:latest sh -c 'apk add --no-cache curl && curl -X POST "http://elastic:changeme@kibana:5601/api/index_patterns/index_pattern" -H "kbn-xsrf: true" -H "Content-Type: application/json" -d'\''{"index_pattern": {"title": "filebeat-suricata-*","timeFieldName":"@timestamp"}}'\'
 
 docker run -d --restart=unless-stopped --name "${HOST_NAME}" --hostname "${HOST_NAME}" \
   --network=docker-elk_elk \
